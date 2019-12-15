@@ -22,7 +22,7 @@ const xs = tf.tensor2d([[0,0],[0.5,0.5],[1,1]]);
 ```javascript
     const ys = tf.tensor2d([[1],[0.5],[0]]);
 ```
-3. Loss alogorithm. Change this as needed - see Tensor Flow JS documentation. 
+3. Loss algorithm. Change this as needed - see Tensor Flow JS documentation. 
 In this case  mean squared error is an estimator measure the average of the squares of the errors—that is, the average squared difference between the estimated values and the actual value.
 
 ```javascript
